@@ -83,12 +83,12 @@
 					<tr>
 						<td><label for="numE">Numero Exterior</label></td>
 						<td><label for="Colonia">Colonia</label></td>
-						<td><label for="E-mail">E-mail</label></td>						
+						<td><label for="mail">E-mail</label></td>						
 					</tr>
 					<tr>
 						<td><input type="text" name="numE" id="numE" placeholder="Número exterior"></td>
 						<td><input type="text" name="Colonia" id="Colonia" placeholder="Colonia"></td>
-						<td><input type="text" name="E-mail" id="E-mail" placeholder="E-mail"></td>
+						<td><input type="text" name="mail" id="mail" placeholder="E-mail"></td>
 					</tr>
 					<tr>
 						<td><label for="RFC">R.F.C.</label></td>
