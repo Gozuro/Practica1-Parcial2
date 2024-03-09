@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link rel="stylesheet" href="styles.css">
+	<title>Practica1_171877</title>
+
+</head>
+<body>
+	<section id="texto">
+		<h1>Formulario -> Practica 1</h1>
+	</section>
+	<section id="texto">
+		<form method="post" action="leeformulario.php">
+			<fieldset>
+				<legend>Informacion Personal</legend>
+
+				<table>
+					<tr>
+						<td><label from="nombre">Nombre: </label></td>
+						<td><label for="Apaterno">Apellido Paterno</label></td>
+						<td><label for="Amaterno">Apellido Materno</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="nombre" id="nombre" placeholder="Nombre"></td>
+						<td><input type="text" name="Apaterno" id="Ap" placeholder="Apellido Paterno"></td>
+						<td><input type="text" name="Amaterno" id="Am" placeholder="Apellido Materno"></td>
+
+					</tr>
+					<tr>
+						<td><label from="usuario">Nombre de usuario: </label></td>
+						<td><label for="contraseña">Contraseña: </label></td>
+						<td><label for="Fnac"> Fecha de Nacimiento: </label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="usuario" id="usuario" placeholder="Usuario"></td>
+						<td><input type="password" name="contraseña" id="contraseña" placeholder="Contraseña"></td>
+						<td><input type="date" id="Fnac" name="Fnac" ></td>
+					</tr>
+				</table>
+			</fieldset>
+			</section>
+			<section>
+			<fieldset>
+				<legend>Datos de facturación</legend>
+				<table>
+					<tr>
+						<td><label for="pais">País</label></td>
+						<td><label for="Ciudad">Ciudad</label></td>
+						<td><label for="Calle">Calle</label></td>
+					</tr>
+					<tr>
+						<td>
+							<select id="pais" name="pais">
+								<!-- Opciones de paises -->
+								<option>-----------------</option>
+								<option value="México">México</option>
+								<option value="USA">USA</option>
+								<option value="Canda">Canada</option>
+								<option value="Japón">Japón</option>
+								<option value="Korea">Korea</option>
+								<option value="China">China</option>
+								<option value="España">España</option>
+								<option value="Italia">Italia</option>
+								<option value="Roma">Roma</option>
+							</select>
+						</td>
+						<td>
+							<select id="Ciudad" name="Ciudad">
+								<!-- Opciones de ciudades -->
+								<option>-----------------</option>
+								<option value="San Luis Potosi">San Luis Potosi</option>
+								<option value="Matehuala">Mayehuala</option>
+								<option value="Cd.Valles">Cd.Valles</option>
+								<option value="Monterrey">Monterrey</option>
+								<option value="Guadalajara">Guadalajara</option>
+								<option value="Queretaro">Queretaro</option>
+							</select>
+						</td>
+						<td><input type="text" name="Calle" id="Calle" placeholder="Calle"></td>
+					</tr>
+					<tr>
+						<td><label for="numE">Numero Exterior</label></td>
+						<td><label for="Colonia">Colonia</label></td>
+						<td><label for="E-mail">E-mail</label></td>						
+					</tr>
+					<tr>
+						<td><input type="text" name="numE" id="numE" placeholder="Número exterior"></td>
+						<td><input type="text" name="Colonia" id="Colonia" placeholder="Colonia"></td>
+						<td><input type="text" name="E-mail" id="E-mail" placeholder="E-mail"></td>
+					</tr>
+					<tr>
+						<td><label for="RFC">R.F.C.</label></td>
+						<td><label for="CP">C.P.</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="RFC" id="RFC" placeholder="R.F.C"></td>
+						<td><input type="text" name="CP" id="CP" placeholder="Codigo Postal"></td>
+						<td>
+							<input type="submit" name="Enviar">
+							<input type="reset" name="Restablecer" id="Restablecer">
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>
